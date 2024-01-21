@@ -11,7 +11,6 @@ public interface ConfigProvider {
                 ? ConfigFactory.load(ConfigFactory.systemProperties().getString("testProfile"))
                 : ConfigFactory.load("application.conf");
     }
-
     String URL = readConfig().getString("url");
     String STANDARD_USER_USERNAME = readConfig().getString("standardUser.username");
     String STANDARD_USER_PASSWORD = readConfig().getString("standardUser.password");

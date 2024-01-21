@@ -16,5 +16,6 @@ public class SauceDemoTest extends BaseSeleniumTest {
                 .backToProductsPage();
 
         Assert.assertEquals("Products", CheckoutComplete.getTitle());
+
     }
 }

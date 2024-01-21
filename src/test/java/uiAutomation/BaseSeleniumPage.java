@@ -7,4 +7,5 @@ abstract public class BaseSeleniumPage {
     public static void setDriver(WebDriver webDriver) {
         driver = webDriver;
     }
+
 }

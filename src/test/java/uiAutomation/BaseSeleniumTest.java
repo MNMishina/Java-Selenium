@@ -18,7 +18,6 @@ abstract public class BaseSeleniumTest {
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         BaseSeleniumPage.setDriver(driver);
-
     }
     @After
     public void tearDown() {

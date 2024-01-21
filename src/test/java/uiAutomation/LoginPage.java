@@ -16,7 +16,6 @@ public class LoginPage extends BaseSeleniumPage {
         driver.get(ConfigProvider.URL);
         PageFactory.initElements(driver, this);
     }
-
     public ProductsPage authorization(String usernameValue, String passwordValue) {
         usernameField.sendKeys(usernameValue);
         passwordField.sendKeys(passwordValue, Keys.ENTER);
